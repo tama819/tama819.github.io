@@ -9,7 +9,8 @@ img {
   vertical-align: bottom;
 }
 .bg {
-  background-image: url("C:/mai_page/img/bg.jpg");
+  background-image: url("../img/bg.jpg");
+  /* background-color: antiquewhite; */
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
