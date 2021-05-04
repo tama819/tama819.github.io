@@ -1,0 +1,212 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
+img {
+  vertical-align: bottom;
+}
+.bg {
+  background-image: url("C:/mai_page/img/bg.jpg");
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header-wrapper {
+  /* text-align: center; */
+}
+.header {
+  padding: 25px 0 25px 0;
+  margin-left: 20p;
+  /* width: 60%; */
+
+  /* background-color:floralwhite; */
+  background-color: #fff;
+  opacity: 0.8;
+}
+
+.site-title {
+  margin: 0 20px;
+  font-size: 3.215rem;
+  color:darkgreen;
+  font-family:cursive;
+}
+
+.subtitle {
+  font-size: 1.125rem;
+  color:#888;
+  font-style: italic;
+  font-family:'Times New Roman', Times, serif;
+  margin: 1px 0 0 20px;
+}
+
+
+.eye-catch> img {
+  width: 100%;
+  /* border-radius: 50%; */
+}
+
+.main-wrapper {
+  display: flex;
+}
+
+.main {
+  width: 750px;
+  background-color: #fff;
+  padding: 15px 10px 0 40px;
+  }
+
+.aside {
+  width: 450px;
+  background-color: #fff;
+  padding: 160px 70px 35px 40px;
+}
+
+.side-section {
+  width: 100%;
+
+}
+
+.side-title-wrap {
+  width: 100%;
+  border-bottom: solid 2px darkgreen;
+}
+
+.side-title {
+  background-color:darkgreen;
+  color:#fff;
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 7px 10px;
+  margin: 0;
+}
+
+.side-contents {
+  width: 100%;
+  margin: 30px 0;
+}
+
+.select-box {
+  width: 100%;
+  color: #888;
+  padding: 10px;
+  background-color: #eee;
+  border: solid 1px #ddd;
+  letter-spacing: 0.6px;
+  outline: none;
+}
+.side-contents.tag {
+  font-family: 'Droid Seeif', Lora, Georgia, 'Times New Roman', Times, serif;
+}
+.minor {
+  font-size: 0.7rem;
+  color: #888;
+}
+
+.major {
+  font-size: 1.8rem;
+  color: #555;
+}
+
+.side-contents.meta {
+  font-family: 'Droid Seeif', Lora, Georgia, 'Times New Roman', Times, serif;
+  color: #555;
+  font-size: 1.1rem;
+  line-height: 1.5em;
+  margin-left: -15px;
+}
+
+.main-title {
+  color: #888;
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.main-meta {
+  display: flex;
+  color: #999;
+  align-items: center;
+  letter-spacing:1px;
+  /* font-family: 'Droid Seeif', Lora, Georgia, 'Times New Roman', Times, serif; */
+}
+
+.main-author::before {
+  content: '\f5ad';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 0.5rem;
+  margin-right: 5px;
+ 
+}
+
+.main-date::before {
+  content: '\f073';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 100;
+  font-size: 0.8rem;
+  margin-right: 5px;
+  margin-left: 10px;
+ 
+}
+
+.contents {
+  border-bottom: 1px solid #ccc;
+}
+
+.contents:last-of-type {
+  border-bottom: none;
+}
+
+.main-article {
+  margin: 0 0 50px 0;
+  color: #666;
+  font-size: 1.3rem;
+  font-family: 'Droid Seeif', Lora, Georgia, 'Times New Roman', Times, serif;
+
+}
+.footer {
+   background-color: #555;
+   padding: 20px 0;
+}
+.copyright {
+  color: #777;
+  width: 1200px;
+  margin: 0 auto;
+  display: block;
+  text-indent:30px;
+}
+
+.footer-link
+{
+  text-decoration: none;
+  color: #bbb;
+}
+
+.page-top::before {
+  width: 40px;
+  height:40px;
+  background-color: #555;
+  opacity: 0.7;
+  content: '\f077';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 600;
+  position: fixed;
+  right: 30px;
+  bottom: 70px;
+  color:#fff;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
