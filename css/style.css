@@ -263,6 +263,7 @@ img {
   border-radius: 5px;
   font-size: 1.2rem;
 } */
+/* ************************************************ */
 
 @media (min-width: 900px) {
  
@@ -431,6 +432,7 @@ img {
   color: #999;
   align-items: center;
   letter-spacing:1px;
+  padding-bottom: 15px;
   /* font-family: 'Droid Seeif', Lora, Georgia, 'Times New Roman', Times, serif; */
 }
 
@@ -464,7 +466,7 @@ img {
 .main-article {
   margin: 0 0 50px 0;
   color: #666;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-family: 'Droid Seeif', Lora, Georgia, 'Times New Roman', Times, serif;
 
 }
