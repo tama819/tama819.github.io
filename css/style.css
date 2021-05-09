@@ -68,6 +68,7 @@ img {
  } 
 
 .overlay {
+  font-family:cursive, 'Courier New', Courier, monospace;
   position:fixed;
   top: 0;
   bottom: 0;
@@ -388,6 +389,14 @@ img {
   /* background-color:floralwhite; */
   background-color: #fff;
   opacity: 0.8;
+}
+
+.sp-menu #open.hide {
+  display: none;
+} 
+
+.overlay {
+ font-size: 2.5rem;
 }
 
 .site-title {
