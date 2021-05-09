@@ -12,17 +12,22 @@ img {
   background-image: url("../img/bg.jpg");
   width: 100%;
   padding: 20px 0 20px 0;
-
-
 }
 
 .wrapper {
   width: 90%;
+  margin: 0 auto;
  }
 
+ .main-wrapper {
+  padding: 20px 0;
+ 
+}
+
 .header {
-  padding: 15px 0 15px 0;
-  margin-left: 5px;
+  /* display:flex; */
+  padding: 15px 16px 15px 16px;
+  /* line-height: 32px; */
   /* background-color: aquamarine; */
 }
 
@@ -31,9 +36,13 @@ img {
   padding: 15px 0 15px 0;
   font-size: 1.5rem;
   color:darkgreen;
-  font-family:cursive;
+  /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+  /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+  /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  font-family:cursive, 'Courier New', Courier, monospace;
 }
-
 .subtitle {
   font-size: 0.8rem;
   color:#888;
@@ -41,6 +50,94 @@ img {
   font-family:'Times New Roman', Times, serif;
   margin: 0 auto;
 }
+
+.sp-menu {
+  margin-left: auto;
+}
+
+.sp-menu #open {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 32px;
+  cursor: pointer;
+  }
+
+ .sp-menu #open.hide {
+   display: none;
+ } 
+
+.overlay {
+  position:fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.95);
+  text-align: center;
+  padding: 64px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .6s;
+}
+
+.overlay.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.overlay #close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 32px;
+  cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+    color:chocolate;
+  }
+
+.overlay ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.overlay li {
+  margin-top: 24px;
+
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity .3s, transform .3s;
+}
+
+.overlay.show li {
+  opacity: 1;
+  transform: none;
+}
+
+.overlay.show li:nth-child(1) {
+  transition-delay: .1s;
+}
+
+.overlay.show li:nth-child(2) {
+  transition-delay: .2s;
+}
+
+.overlay.show li:nth-child(3) {
+  transition-delay: .3s;
+}
+
+.overlay.show li:nth-child(4) {
+  transition-delay: .4s;
+}
+
+.overlay.show li:nth-child(5) {
+  transition-delay: .5s;
+}
+
 
 
 .eye-catch> img {
@@ -69,6 +166,7 @@ img {
   width: 100%;
 
 }
+
 .sns-box {
   display: flex;
  padding:30px  0 30px 0;
@@ -145,7 +243,7 @@ img {
 
 .side-contents.tag {
   /* font-family: 'Droid Seeif', Lora, Georgia, 'Times New Roman', Times, serif; */
-  font-family:cursive;
+  font-family:cursive, 'Courier New', Courier, monospace;
   font-size: 1.0rem;
   margin-left: 10px;
 }
@@ -162,7 +260,7 @@ img {
 
 .side-contents.meta {
   /* font-family: 'Droid Seeif', Lora, Georgia, 'Times New Roman', Times, serif; */
-  font-family:cursive;
+  font-family:cursive, 'Courier New', Courier, monospace;
   color: #555;
   font-size: 2rem;
   line-height: 1.5em;
@@ -214,6 +312,7 @@ img {
 
 .contents {
   border-bottom: 1px solid #ccc;
+  padding:5px 15px;
 }
 
 .contents:last-of-type {
@@ -222,7 +321,7 @@ img {
 
 .main-article {
   margin: 0;
-  padding-bottom: 25px;
+  padding: 0 5px 25px 5px;
   color: #666;
   font-size: 1rem;
   font-family: 'Droid Seeif', Lora, Georgia, 'Times New Roman', Times, serif;
@@ -245,6 +344,7 @@ img {
   text-decoration: none;
   color: #bbb;
 }
+
 /* 
 .page-top::before {
   width: 40px;
@@ -286,7 +386,7 @@ img {
   margin: 0 20px;
   font-size: 3.215rem;
   color:darkgreen;
-  font-family:cursive;
+  font-family:cursive, 'Courier New', Courier, monospace;
 }
 
 .subtitle {
@@ -331,9 +431,9 @@ img {
 .facebook-s {
   width: 45px;
   height:45px;
-   position: fixed;
+   /* position: fixed;
   right: 123px;
-  top: 30px;
+  top: 30px; */
   color:rgb(39, 137, 230);
   text-align: center;
   line-height: 40px;
@@ -344,9 +444,9 @@ img {
 .youtube-s {
   width: 45px;
   height:45px;
-   position: fixed;
+   /* position: fixed;
   right: 75px;
-  top: 30px;
+  top: 30px; */
   color:rgb(224, 6, 6);
   text-align: center;
   line-height: 40px;
@@ -357,9 +457,9 @@ img {
 .instagram-s {
   width: 45px;
   height:45px;
-   position: fixed;
+   /* position: fixed;
   right: 30px;
-  top: 30px;
+  top: 30px; */
   color:rgba(250, 145, 8, 0.945);
   text-align: center;
   line-height: 40px;
@@ -399,7 +499,7 @@ img {
 
 .side-contents.tag {
   /* font-family: 'Droid Seeif', Lora, Georgia, 'Times New Roman', Times, serif; */
-  font-family:cursive;
+  font-family:cursive, 'Courier New', Courier, monospace;
 }
 .minor {
   font-size: 0.7rem;
@@ -413,7 +513,7 @@ img {
 
 .side-contents.meta {
   /* font-family: 'Droid Seeif', Lora, Georgia, 'Times New Roman', Times, serif; */
-  font-family:cursive;
+  font-family:cursive, 'Courier New', Courier, monospace;
   color: #555;
   font-size: 1.5rem;
   line-height: 2.5em;

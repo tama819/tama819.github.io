@@ -18,8 +18,8 @@
 
   <!-- <link rel="stylesheet" href="css/normalize.css"> -->
   <!-- <link rel="stylesheet" href="css/main.css"> -->
-  <link rel="stylesheet" href="css/style.css">
   <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
   
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -27,26 +27,42 @@
 <body>
   <!-- Add your site or application content here -->
   <div class="bg">
-    <i class="fas fa-bars"></i>
-    <i class="fas fa-times"></i>
+ 
     <div class = "wrapper">
-      
-      <div class="main-wrapper">
+       <div class="main-wrapper">
         <main class="main">
-          
           <!-- <div class="header-wrapper"> -->
             <header class="header">
-              <h1 class="site-title">PAGE TITLE HERE!</h1>
-              <p class="subtitle">You’ll never find a rainbow if you’re looking down.</p>
+              <div class="title-logo">
+                <h1 class="site-title">PAGE TITLE HERE!</h1>
+                <p class="subtitle">You’ll never find a rainbow if you’re looking down.</p>
+              </div>
+              <div class="sp-menu">
+                <span id="open"><i class="fas fa-bars"></i></span>
+              </div>
             </header>
+
+            <div class="overlay">
+              <span ></span><i class="fas fa-times" id="close"></i>
+              <nav>
+                <ul>
+                  <li><a href="#">Mai's Blog</a></li>
+                  <li><a href="#">Russian Online lessons</a></li>
+                  <li><a href="#">Contact me</a></li>
+                  <li><a href="#">Profile</a></li>
+                  <li><a href="#">MENU</a></li>
+                </ul>
+              </nav>
+            </div>     
             <div class="eye-catch">
               <img src="img/mai-kimono.jpg" alt="成人式">
             </div>
+            
           <!-- </div> -->
 
 
             <section class="contents">
-              <p class="main-title">Profile</p>
+              <p class="main-title">One Day</p>
               <div class="main-meta">
                 <p class="main-author">Theme Admin</p>
                 <p class="main-date">October 17 2020</p>
@@ -55,7 +71,7 @@
             </section>
 
             <section class="contents">
-              <p class="main-title">Mai's Blog</p>
+              <p class="main-title">HaHaHa</p>
               <div class="main-meta">
                 <p class="main-author">Theme Admin</p>
                 <p class="main-date">October 20 2020</p>
@@ -64,7 +80,7 @@
             </section>
  
             <section class="contents">
-              <p class="main-title">Russian Online lessons</p>
+              <p class="main-title">Online lessons</p>
               <div class="main-meta">
                 <p class="main-author">Theme Admin</p>
                 <p class="main-date">October 23 2020</p>
@@ -73,7 +89,7 @@
             </section>
 
             <section class="contents">
-              <p class="main-title">Contact me</p>
+              <p class="main-title">HELLO!</p>
               <div class="main-meta">
                 <p class="main-author">Theme Admin</p>
                 <p class="main-date">October 23 2020</p>
@@ -108,9 +124,9 @@
             <div class="side-contents">
               <select class="select-box" name="example">
                 <option value="セレクト1"> Select language</option>
-                <option value="セレクト2">&nbsp;Japanese</option>
-                <option value="セレクト3">&nbsp;Russian</option>
-                <option value="セレクト4">&nbsp;English</option>
+                <option value="日本語">&nbsp;Japanese</option>
+                <option value="ロシア語">&nbsp;Russian</option>
+                <option value="英語">&nbsp;English</option>
               </select>             
             </div>
 
@@ -132,10 +148,10 @@
               </div>
               <div class="side-contents meta">
                <ul>
-                 <li><a>Profile</a></li>
                  <li><a>Mai's Blog</a></li>
                  <li><a>Russian Online lessons</a></li>
                  <li><a>Contact me</a>
+                  <li><a>Profile</a></li>
                </ul>
               </div>
              </section> 
