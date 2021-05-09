@@ -344,7 +344,9 @@ img {
   text-decoration: none;
   color: #bbb;
 }
-
+.pc-menu {
+  display: none;
+}
 /* 
 .page-top::before {
   width: 40px;
@@ -366,6 +368,12 @@ img {
 /* ************************************************ */
 
 @media (min-width: 900px) {
+
+.pc-menu {
+  display: block;
+  margin-right: auto;
+}
+
  
 .wrapper {
   width: 1200px;
