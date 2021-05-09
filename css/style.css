@@ -11,15 +11,14 @@ img {
 .bg {
   background-image: url("../img/bg.jpg");
   width: 100%;
-  padding-top: 10px;
-  padding-bottom: 20px;
+  padding: 20px 0 20px 0;
+
 
 }
 
 .wrapper {
-  width: 100%;
- /* margin: 0 auto; */
-}
+  width: 90%;
+ }
 
 .header {
   padding: 15px 0 15px 0;
@@ -50,24 +49,24 @@ img {
 }
 
 .main {
-   width: 90%;
+   width: 100%;
   background-color: #fff;
   margin: 0 auto;
-  padding-left: 8px;
-  padding-right: 8px;
+  /* padding-left: 8px;
+  padding-right: 8px; */
   }
 
 .aside {
-  width: 90%;
+  width: 100%;
   background-color: #fff;
   margin: 0 auto;
-  padding-left: 8px;
+  /* padding-left: 8px; */
   padding-bottom: 30px;
 
 }
 
 .side-section {
-  width: 90%;
+  width: 100%;
 
 }
 .sns-box {
@@ -131,7 +130,7 @@ img {
 
 .side-contents {
   width: 100%;
-  margin: 30px 0;
+  margin: 30px 5px;
 }
 
 .select-box {
@@ -148,6 +147,7 @@ img {
   /* font-family: 'Droid Seeif', Lora, Georgia, 'Times New Roman', Times, serif; */
   font-family:cursive;
   font-size: 1.0rem;
+  margin-left: 10px;
 }
 
 .minor {
@@ -166,7 +166,7 @@ img {
   color: #555;
   font-size: 2rem;
   line-height: 1.5em;
-  margin-left: -15px;
+  margin-left: 3px;
 }
 
 .main-title {
