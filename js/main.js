@@ -20,7 +20,6 @@ close.addEventListener('click', () => {
   window.addEventListener('load' , function () {
     viewSlide('.slide img');
   });
-  let slideNo = 0;
   function viewSlide(className, slideNo = -1) 
   {
     let imgArray = document.querySelectorAll(className);
