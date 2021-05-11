@@ -5,9 +5,9 @@ html {
 body {
   margin: 0;
 }
-img {
+/* img {
   vertical-align: bottom;
-}
+} */
 .bg {
   background-image: url("../img/bg.jpg");
   width: 100%;
@@ -15,7 +15,7 @@ img {
 }
 
 .wrapper {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
  }
 
@@ -66,6 +66,12 @@ img {
  .sp-menu #open.hide {
    display: none;
  } 
+
+
+ .slide #photo.hide {
+   opacity: 0.05;
+ }
+
 
 .overlay {
   font-family:cursive, 'Courier New', Courier, monospace;
