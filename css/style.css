@@ -141,8 +141,8 @@ img {
 
 .slide {
   position:relative;
-  height: 400px;
-  width: 100%;
+  height: 220px;
+  width: 350px;
 }
 
 .slide img {
@@ -153,6 +153,11 @@ img {
   object-fit:contain;
   /* border-radius: 50%; */
 }
+
+.slide_sp { 
+  display: none;
+}
+  
 
 .main {
    width: 100%;
@@ -444,10 +449,6 @@ img {
 }
   
 
-#slide_speed {
-  color: #bbb;
-	/* transform:rotateY(180deg); */
-}
 
 .main-wrapper {
   display: flex;
