@@ -401,7 +401,12 @@ img {
   opacity: 0.95;
   }
 
-
+.slide img {
+  width: 350px;
+  border-radius: 50%;
+  margin: 0 60px;
+  
+}
 
 .main-title {
   color: #888;
