@@ -21,6 +21,7 @@ body {
  .main-wrapper {
   padding: 20px 5px;
   margin: 0 auto;
+
 }
 
 .header {
@@ -28,6 +29,11 @@ body {
   padding: 15px 16px 15px 16px;
   /* line-height: 32px; */
   /* background-color: aquamarine; */
+}
+
+a {
+  text-decoration: none;
+  color:rgb(102, 48, 9);
 }
 
 .site-title {
@@ -101,10 +107,6 @@ body {
   cursor: pointer;
   }
 
-  a {
-    text-decoration: none;
-    color:chocolate;
-  }
 
 .overlay ul {
   list-style-type: none;

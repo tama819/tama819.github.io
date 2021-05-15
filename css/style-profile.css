@@ -9,28 +9,34 @@ body {
 .bg {
   background-image: url("../img/bg.jpg");
   width: 100%;
-  padding: 20px 0 20px 0;
+padding-top: 10px;
 }
 
 .wrapper {
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
+  padding: 0 0 15px 0;
  }
 
+a {
+  text-decoration: none;
+  color:rgb(102, 48, 9);
+}
  
 .header {
   width: 100%;
-  padding: 30px 0;
+
 }
 
 .title-logo {
- text-align: center;
+ text-align: left;
+ margin:0 0 30px 15px;
 }
 
 
 .site-title {
-  padding: 15px 0 15px 0;
-  font-size: 1.5rem;
+  padding: 0;
+  font-size: 1rem;
   color:darkgreen;
   font-family:cursive, 'Courier New', Courier, monospace;
 }
@@ -41,8 +47,8 @@ body {
 
 .sp-menu #open {
   position: absolute;
-  top: 16px;
-  right: 16px;
+  top: 15px;
+  right: 10px;
   font-size: 32px;
   cursor: pointer;
   }
@@ -81,7 +87,7 @@ body {
 
   a {
     text-decoration: none;
-    color:chocolate;
+    color:rgb(102, 48, 9);
   }
 
 .overlay ul {
@@ -128,14 +134,14 @@ body {
 .main {
   width: 100%;
   background-color: #fff;
-  padding: 0 5px 5px 5px;
-  /* border-radius: 10px; */
+  padding: 35px 0;
   box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
   opacity: 0.95;
   }
 
 .slide {
- text-align: center;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .slide img {
@@ -143,7 +149,6 @@ body {
   border-radius: 50%;
   box-shadow: 0 10px 25px 0 rgba(77, 44, 1, 0.5);
 
-  
 }
 
 
@@ -152,13 +157,14 @@ body {
   color: #888;
   font-size: 1.2rem;
   font-weight: bold;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 .main-meta {
   display: flex;
   color: #999;
   align-items: center;
+  margin-bottom: 10px;
   /* letter-spacing:1px; */
   /* font-family: 'Droid Seeif', Lora, Georgia, 'Times New Roman', Times, serif; */
 }
@@ -202,7 +208,7 @@ body {
 
 .main-article {
   margin: 0;
-  padding: 0 5px 25px 5px;
+  padding: 0 7px 25px 7px;
   color: #666;
   font-size: 1rem;
   font-family: 'Droid Seeif', Lora, Georgia, 'Times New Roman', Times, serif;
@@ -246,15 +252,12 @@ body {
 }
 
 .header {
-  padding: 25px 0 25px 0;
-  margin-left: 20p;
-  /* width: 60%; */
-
-  /* background-color:floralwhite; */
-  background-color: #fff;
-  opacity: 0.8;
+  padding: 0;
+  /* background-color: #fff; */
+  /* opacity: 0.8; */
 }
 
+ 
 .sp-menu #open.hide {
   display: none;
 } 
@@ -263,9 +266,14 @@ body {
  font-size: 2.5rem;
 }
 
+.title-logo {
+  text-align: left;
+  margin:0 0 30px 36px;
+ }
+ 
 .site-title {
-  text-align: right;
-  margin: 0 20px;
+  text-align: left;
+  margin:0;
   font-size: 1.5rem;
   color:darkgreen;
   font-family:cursive, 'Courier New', Courier, monospace;
@@ -276,22 +284,18 @@ body {
 .main {
   width: 750px;
   background-color: #fff;
-  padding: 0 40px 40px 40px;
+  margin: 0 auto;
+  padding: 65px 25px;
   border-radius: 10px;
   box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
   opacity: 0.95;
   }
 
-  .slide {
-    text-align: left;
-   }
-   
 .slide img {
   width: 200px;
   border-radius: 50%;
   box-shadow: 0 10px 25px 0 rgba(77, 44, 1, 0.5);
   margin: 0 60px;
-  
 }
 
 .main-title {
