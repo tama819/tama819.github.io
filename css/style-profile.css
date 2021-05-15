@@ -282,6 +282,10 @@ body {
   opacity: 0.95;
   }
 
+  .slide {
+    text-align: left;
+   }
+   
 .slide img {
   width: 200px;
   border-radius: 50%;
