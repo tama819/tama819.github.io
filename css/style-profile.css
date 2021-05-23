@@ -147,7 +147,7 @@ a {
 .slide img {
   width: 40%;
   border-radius: 50%;
-  box-shadow: 0 10px 25px 0 rgba(77, 44, 1, 0.5);
+  box-shadow: 0 10px 25px 0 rgba(189, 187, 184, 0.5);
 
 }
 
@@ -287,14 +287,14 @@ a {
   margin: 0 auto;
   padding: 65px 25px;
   border-radius: 10px;
-  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+  box-shadow: 0 10px 25px 0 rgba(179, 178, 178, 0.5);
   opacity: 0.95;
   }
 
 .slide img {
   width: 200px;
   border-radius: 50%;
-  box-shadow: 0 10px 25px 0 rgba(77, 44, 1, 0.5);
+  box-shadow: 0 10px 25px 0 rgba(233, 232, 231, 0.5);
   margin: 0 60px;
 }
 
