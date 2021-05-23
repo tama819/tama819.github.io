@@ -20,7 +20,7 @@ body {
   }
 
  .main-wrapper {
-  padding: 20px 5px;
+  padding: 20px 0;
   margin: 0 auto;
 
 }
@@ -98,8 +98,8 @@ a {
 
 .overlay #close {
   position: absolute;
-  top: 16px;
-  right: 16px;
+  top: 8px;
+  right: 8px;
   font-size: 32px;
   cursor: pointer;
   }
@@ -147,7 +147,7 @@ a {
 .slide {
   position:relative;
   height: 220px;
-  /* width: 350px; */
+padding-left: 15px;
   pointer-events: none;
 }
 
@@ -157,7 +157,6 @@ a {
   transition: all 1s ease-in-out;
   height: 100%;
   object-fit:contain;
-  /* border-radius: 50%; */
 }
 
 .slide_sp { 
@@ -169,8 +168,7 @@ a {
    width: 100%;
   background-color: #fff;
   margin: 0 auto;
-  /* padding-left: 8px;
-  padding-right: 8px; */
+ 
   }
 
 .aside {
@@ -184,7 +182,7 @@ a {
 
 .side-section {
   width: 100%;
-
+  padding: 0 5px 0 5px;
 }
 
 .sns-box {
@@ -248,7 +246,7 @@ a {
 
 .side-contents {
   width: 100%;
-  margin: 30px 5px;
+  margin: 30px 0;
 }
 
 .select-box {
@@ -369,24 +367,7 @@ a {
 .pc-menu {
   display: none;
 }
-/* 
-.page-top::before {
-  width: 40px;
-  height:40px;
-  background-color: #555;
-  opacity: 0.7;
-  content: '\f077';
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 600;
-  position: fixed;
-  right: 30px;
-  bottom: 70px;
-  color:#fff;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 5px;
-  font-size: 1.2rem;
-} */
+
 /* ************************************************ */
 
 @media (min-width: 900px) {
@@ -395,7 +376,12 @@ a {
   display: block;
   margin-right: auto;
 }
-
+.bg {
+  background-image: url("../img/bg.jpg");
+  width: 100%;
+  padding: 20px 0 20px 0;
+  background-repeat: repeat-x;
+}
  
 .wrapper {
   width: 1200px;
@@ -417,6 +403,14 @@ a {
 .overlay {
  font-size: 2.5rem;
 }
+
+.overlay #close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 32px;
+  cursor: pointer;
+  }
 
 .site-title {
   margin: 0 20px;
@@ -445,7 +439,6 @@ a {
   transition: all 1s ease-in-out;
   height: 100%;
   object-fit:contain;
-  /* border-radius: 50%; */
 }
 .slide_sp { 
   display: none;
@@ -466,7 +459,7 @@ a {
 .aside {
   width: 450px;
   background-color: #fff;
-  padding: 160px 70px 35px 40px;
+  padding: 160px 70px 0 40px;
 }
 
 .side-section {
