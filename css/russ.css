@@ -20,7 +20,7 @@ padding-top: 10px;
 
 a {
   text-decoration: none;
-  color:rgb(102, 48, 9);
+  color:rgba(22, 10, 2, 0.74);
 }
  
 .header {
@@ -37,7 +37,7 @@ a {
 .site-title {
   padding: 0;
   font-size: 1rem;
-  color:darkgreen;
+  color:black
   font-family:cursive, 'Courier New', Courier, monospace;
 }
 

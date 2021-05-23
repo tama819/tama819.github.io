@@ -7,7 +7,8 @@ body {
 }
 
 .bg {
-  background-image: url("../img/bg.jpg");
+  /* background-image: url("../img/bg.jpg"); */
+  background: rgb(221, 233, 248);
   width: 100%;
   padding: 20px 0 20px 0;
 
@@ -28,7 +29,7 @@ body {
   /* display:flex; */
   padding: 15px 16px 15px 16px;
   /* line-height: 32px; */
-  /* background-color: aquamarine; */
+
 }
 
 a {
@@ -40,7 +41,7 @@ a {
   margin: 0 auto;
   padding: 15px 0 15px 0;
   font-size: 1.5rem;
-  color:darkgreen;
+  color:black;
   /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
   /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
   /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
@@ -201,7 +202,7 @@ a {
    /* position: fixed;
   right: 123px;
   top: 3px; */
-  color:rgb(39, 137, 230);
+  color:gray;
   text-align: center;
   line-height: 35px;
   /* border-radius: 5px; */
@@ -214,7 +215,7 @@ a {
    /* position: fixed;
   right: 75px;
   top: 30px; */
-  color:rgb(224, 6, 6);
+  color:gray;
   text-align: center;
   line-height: 35px;
   border-radius: 5px;
@@ -227,7 +228,7 @@ a {
    /* position: fixed;
   right: 30px;
   top: 30px; */
-  color:rgba(250, 145, 8, 0.945);
+  color:gray;
   text-align: center;
   line-height: 35px;
   border-radius: 5px;
@@ -408,9 +409,7 @@ a {
 .header {
   padding: 25px 0 25px 0;
   margin-left: 20p;
-  /* width: 60%; */
-
-  /* background-color:floralwhite; */
+  
   background-color: #fff;
   opacity: 0.8;
 }
@@ -426,7 +425,7 @@ a {
 .site-title {
   margin: 0 20px;
   font-size: 3.215rem;
-  color:darkgreen;
+  color:black;
   font-family:cursive, 'Courier New', Courier, monospace;
 }
 
@@ -487,10 +486,8 @@ a {
 .facebook-s {
   width: 45px;
   height:45px;
-   /* position: fixed;
-  right: 123px;
-  top: 30px; */
-  color:rgb(39, 137, 230);
+
+
   text-align: center;
   line-height: 40px;
   border-radius: 5px;
@@ -503,7 +500,7 @@ a {
    /* position: fixed;
   right: 75px;
   top: 30px; */
-  color:rgb(224, 6, 6);
+
   text-align: center;
   line-height: 40px;
   border-radius: 5px;
@@ -516,7 +513,7 @@ a {
    /* position: fixed;
   right: 30px;
   top: 30px; */
-  color:rgba(250, 145, 8, 0.945);
+
   text-align: center;
   line-height: 40px;
   border-radius: 5px;
@@ -525,11 +522,11 @@ a {
 
 .side-title-wrap {
   width: 100%;
-  border-bottom: solid 2px darkgreen;
+  border-bottom: solid 2px gray;
 }
 
 .side-title {
-  background-color:darkgreen;
+  background-color:gray;
   color:#fff;
   display: inline-block;
   font-size: 0.9rem;
