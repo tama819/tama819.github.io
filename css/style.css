@@ -34,7 +34,7 @@ body {
 
 a {
   text-decoration: none;
-  color:cadetblue
+  color:cadetblue;
 }
 
 .site-title {
@@ -79,8 +79,7 @@ a {
 
 
 .overlay {
-  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "メイリオ", sans-serif;
-
+  font-family:cursive, 'Courier New', Courier, monospace;
   position:fixed;
   top: 0;
   bottom: 0;
@@ -265,7 +264,7 @@ a {
 }
 
 .side-contents.tag {
-  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "メイリオ", sans-serif;
+  font-family:cursive, 'Courier New', Courier, monospace;
 
   font-size: 1.0rem;
   margin-left: 10px;
@@ -283,7 +282,7 @@ a {
 
 .side-contents.meta {
   /* font-family: 'Droid Seeif', Lora, Georgia, 'Times New Roman', Times, serif; */
-  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "メイリオ", sans-serif;
+  font-family:cursive, 'Courier New', Courier, monospace;
 
   color: #555;
   font-size: 2rem;
@@ -551,8 +550,7 @@ a {
 
 .side-contents.tag {
   /* font-family: 'Droid Seeif', Lora, Georgia, 'Times New Roman', Times, serif; */
-  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "メイリオ", sans-serif;
-
+  font-family:cursive, 'Courier New', Courier, monospace;
 }
 .minor {
   font-size: 0.7rem;
@@ -566,8 +564,7 @@ a {
 
 .side-contents.meta {
   /* font-family: 'Droid Seeif', Lora, Georgia, 'Times New Roman', Times, serif; */
-  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "メイリオ", sans-serif;
-
+  font-family:cursive, 'Courier New', Courier, monospace;
   color: #555;
   font-size: 1.5rem;
   line-height: 2.5em;

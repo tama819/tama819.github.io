@@ -20,7 +20,7 @@ padding-top: 10px;
 
 a {
   text-decoration: none;
-  color:rgba(22, 10, 2, 0.74);
+  color:cadetblue;
 }
  
 .header {
@@ -59,7 +59,7 @@ a {
  } 
 
 .overlay {
-  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "メイリオ", sans-serif;
+  font-family:cursive, 'Courier New', Courier, monospace;
 
   position:fixed;
   top: 0;
@@ -89,7 +89,7 @@ a {
 
   a {
     text-decoration: none;
-    color:rgb(102, 48, 9);
+    color:cadetblue;
   }
 
 .overlay ul {
