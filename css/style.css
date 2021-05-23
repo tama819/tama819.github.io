@@ -43,8 +43,8 @@ a {
   font-size: 1.5rem;
   color:black;
     /* font-family: 'Droid Seeif', Lora, Georgia, 'Times New Roman', Times, serif; */
-  /* font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif; */
-  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "メイリオ", sans-serif;
+    font-family: 'Open Sans', sans-serif;
+  /* font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "メイリオ", sans-serif; */
 
 }
 .subtitle {
@@ -423,8 +423,9 @@ a {
 .site-title {
   margin: 0 20px;
   font-size: 3.215rem;
-  color:black;
+  color:rgb(38, 38, 46);
 
+  font-family: 'Merienda', cursive;
 }
 
 .subtitle {
