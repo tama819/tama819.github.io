@@ -237,11 +237,11 @@ a {
 
 .side-title-wrap {
   width: 100%;
-  border-bottom: solid 2px darkgreen;
+  border-bottom: solid 2px gray;
 }
 
 .side-title {
-  background-color:darkgreen;
+  background-color:gray;
   color:#fff;
   display: inline-block;
   font-size: 0.9rem;
