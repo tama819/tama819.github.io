@@ -41,11 +41,8 @@ a {
   margin: 0 auto;
   padding: 15px 0 15px 0;
   font-size: 1.5rem;
-  color:black;
-    /* font-family: 'Droid Seeif', Lora, Georgia, 'Times New Roman', Times, serif; */
-    font-family: 'Open Sans', sans-serif;
-  /* font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "メイリオ", sans-serif; */
-
+  color:rgb(38, 38, 46);
+  font-family: 'Merienda', cursive;
 }
 .subtitle {
   font-size: 0.8rem;
@@ -423,9 +420,7 @@ a {
 .site-title {
   margin: 0 20px;
   font-size: 3.215rem;
-  color:rgb(38, 38, 46);
-
-  font-family: 'Merienda', cursive;
+  
 }
 
 .subtitle {
