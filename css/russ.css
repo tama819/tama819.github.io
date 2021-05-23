@@ -146,7 +146,7 @@ a {
 
 .russ_text img {
   width: 30%;
-  border-radius: 6%;
+  border-radius: 50%;
   box-shadow: 0 10px 25px 0 rgba(77, 44, 1, 0.5);
 
 }
@@ -206,14 +206,6 @@ a {
   border-bottom: none;
 }
 
-.main-article {
-  margin: 0;
-  padding: 0 7px 25px 7px;
-  color: #666;
-  font-size: 1rem;
-  font-family: 'Droid Seeif', Lora, Georgia, 'Times New Roman', Times, serif;
-
-}
 .footer {
    background-color: #555;
    padding: 20px 0;
@@ -290,17 +282,19 @@ a {
   opacity: 0.95;
   }
 
+ .main-wrapper {
+  display: flex;
+ }
+
  .russ_text {
-   text-align: right;
-   margin-top: 16px;
-   margin-right: 16px;
+/* margin-left: 30px; */
  } 
 
 .russ_text img {
-  width: 100px;
-  border-radius: 16%;
+  width: 120px;
+  border-radius: 50%;
   box-shadow: 0 10px 25px 0 rgba(77, 44, 1, 0.5);
-  margin: 0 60px;
+  margin-left: 30px;
 }
 
 .main-title {
