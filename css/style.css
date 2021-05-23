@@ -77,13 +77,16 @@ a {
 
 
 .overlay {
-  font-family:cursive, 'Courier New', Courier, monospace;
+  font-family: 'Amatic SC', cursive;
+  /* font-family:cursive, 'Courier New', Courier, monospace; */
   position:fixed;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
   background: rgba(255, 255, 255, 0.95);
+  font-weight: bold;
+  font-size: 1.2rem;
   text-align: center;
   padding: 64px;
   opacity: 0;
@@ -260,7 +263,7 @@ padding-left: 15px;
 }
 
 .side-contents.tag {
-  font-family:cursive, 'Courier New', Courier, monospace;
+  font-family: 'Amatic SC', cursive;
 
   font-size: 1.0rem;
   margin-left: 10px;
@@ -278,7 +281,7 @@ padding-left: 15px;
 
 .side-contents.meta {
 
-  font-family:cursive, 'Courier New', Courier, monospace;
+  font-family: 'Amatic SC', cursive;
 
   color: #555;
   font-size: 2rem;
@@ -342,7 +345,7 @@ padding-left: 15px;
   margin: 0;
   padding: 0 5px 25px 5px;
   color: #666;
-  font-size: 1rem;
+  font-size: 0.7rem;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   line-height: 2.0em;
 }
@@ -540,8 +543,8 @@ padding-left: 15px;
 }
 
 .side-contents.tag {
-  /* font-family: 'Droid Seeif', Lora, Georgia, 'Times New Roman', Times, serif; */
-  font-family:cursive, 'Courier New', Courier, monospace;
+  font-family: 'Amatic SC', cursive;
+  /* font-family:cursive, 'Courier New', Courier, monospace; */
 }
 .minor {
   font-size: 0.7rem;
@@ -554,11 +557,12 @@ padding-left: 15px;
 }
 
 .side-contents.meta {
-  /* font-family: 'Droid Seeif', Lora, Georgia, 'Times New Roman', Times, serif; */
-  font-family:cursive, 'Courier New', Courier, monospace;
+  font-family: 'Amatic SC', cursive;
+  /* font-family:cursive, 'Courier New', Courier, monospace; */
   color: #555;
-  font-size: 1.5rem;
-  line-height: 2.5em;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 2.0em;
   margin-left: -15px;
 }
 
