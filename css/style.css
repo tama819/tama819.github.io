@@ -390,6 +390,7 @@ padding-left: 15px;
 .wrapper {
   width: 1200px;
   margin: 0 auto;
+  box-shadow: 0 10px 25px 0 rgba(75, 75, 75, 0.05);
 }
 
 .header {
@@ -458,6 +459,7 @@ padding-left: 15px;
   width: 750px;
   background-color: #fff;
   padding: 15px 10px 0 40px;
+
   }
 
 .aside {

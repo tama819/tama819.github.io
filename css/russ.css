@@ -136,7 +136,7 @@ a {
   width: 100%;
   background-color: #fff;
   padding: 35px 0;
-  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+  /* box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5); */
   opacity: 0.95;
   }
 
@@ -148,7 +148,7 @@ a {
 .russ_text img {
   width: 30%;
   border-radius: 50%;
-  box-shadow: 0 10px 25px 0 rgba(77, 44, 1, 0.5);
+  box-shadow: 0 10px 25px 0 rgba(77, 44, 1, 0.05);
 
 }
 
@@ -279,7 +279,7 @@ a {
   margin: 0 auto;
   padding: 65px 25px;
   border-radius: 10px;
-  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+  box-shadow: 0 10px 25px 0 rgba(75, 75, 75, 0.05);
   opacity: 0.95;
   }
 
@@ -292,9 +292,9 @@ a {
  } 
 
 .russ_text img {
-  width: 120px;
+  width: 150px;
   border-radius: 50%;
-  box-shadow: 0 10px 25px 0 rgba(77, 44, 1, 0.5);
+  box-shadow: 0 10px 25px 0 rgba(77, 44, 1, 0.05);
   margin-left: 30px;
 }
 
