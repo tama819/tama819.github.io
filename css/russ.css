@@ -139,14 +139,14 @@ a {
   opacity: 0.95;
   }
 
-.slide {
+.russ_text {
   margin: 0 auto;
   text-align: center;
 }
 
-.slide img {
-  width: 40%;
-  border-radius: 16%;
+.russ_text img {
+  width: 30%;
+  border-radius: 6%;
   box-shadow: 0 10px 25px 0 rgba(77, 44, 1, 0.5);
 
 }
@@ -290,13 +290,14 @@ a {
   opacity: 0.95;
   }
 
- .slide {
-   text-align: left;
-   margin-left: 5px;
+ .russ_text {
+   text-align: right;
+   margin-top: 16px;
+   margin-right: 16px;
  } 
 
-.slide img {
-  width: 150px;
+.russ_text img {
+  width: 100px;
   border-radius: 16%;
   box-shadow: 0 10px 25px 0 rgba(77, 44, 1, 0.5);
   margin: 0 60px;
