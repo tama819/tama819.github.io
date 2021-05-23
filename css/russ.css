@@ -37,9 +37,8 @@ a {
 .site-title {
   padding: 0;
   font-size: 1rem;
-  color:black;
-  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "メイリオ", sans-serif;
-
+  color:rgb(84, 84, 104);
+  font-family: 'Merienda', cursive;
 }
 
 .sp-menu {
@@ -267,9 +266,9 @@ a {
 .site-title {
   text-align: left;
   margin:0;
-  font-size: 1.5rem;
-  color:gray;
-  font-family:cursive, 'Courier New', Courier, monospace;
+  font-size: 1.7rem;
+ 
+
 }
 
 
