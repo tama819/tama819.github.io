@@ -140,6 +140,50 @@ a {
   opacity: 0.95;
   }
 
+  .sns-box {
+    display: flex;
+   padding:30px  0 30px 0;
+  }
+  
+  .facebook-s {
+    width: 35px;
+    height:35px;
+     /* position: fixed;
+    right: 123px;
+    top: 3px; */
+    color:gray;
+    text-align: center;
+    line-height: 35px;
+    /* border-radius: 5px; */
+    font-size: 2rem;
+  }
+  
+  .youtube-s {
+    width: 35px;
+    height:35px;
+     /* position: fixed;
+    right: 75px;
+    top: 30px; */
+    color:gray;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 5px;
+    font-size: 2rem;
+  }
+  
+  .instagram-s {
+    width: 35px;
+    height:35px;
+     /* position: fixed;
+    right: 30px;
+    top: 30px; */
+    color:gray;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 5px;
+    font-size: 2rem;
+  }
+  
 .russ_text {
   margin: 0 auto;
   text-align: center;
@@ -287,9 +331,46 @@ a {
   display: flex;
  }
 
- .russ_text {
-/* margin-left: 30px; */
- } 
+ .sns-box {
+  display: flex;
+ }
+
+.facebook-s {
+  width: 45px;
+  height:45px;
+
+
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+  font-size: 2.2rem;
+}
+
+.youtube-s {
+  width: 45px;
+  height:45px;
+   /* position: fixed;
+  right: 75px;
+  top: 30px; */
+
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+  font-size: 2.2rem;
+}
+
+.instagram-s {
+  width: 45px;
+  height:45px;
+   /* position: fixed;
+  right: 30px;
+  top: 30px; */
+
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+  font-size: 2.2rem;
+}
 
 .russ_text img {
   width: 150px;
