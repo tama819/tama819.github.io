@@ -148,30 +148,24 @@ a {
   .facebook-s {
     width: 35px;
     height:35px;
-  
     color:gray;
     text-align: center;
     line-height: 35px;
-    /* border-radius: 5px; */
     font-size: 2rem;
   }
+
   .twitter-s {
     width: 35px;
     height:35px;
-   
-    color:gray;
+     color:gray;
     text-align: center;
     line-height: 35px;
-    /* border-radius: 5px; */
     font-size: 2rem;
   }
   
   .youtube-s {
     width: 35px;
     height:35px;
-     /* position: fixed;
-    right: 75px;
-    top: 30px; */
     color:gray;
     text-align: center;
     line-height: 35px;
@@ -182,9 +176,6 @@ a {
   .instagram-s {
     width: 35px;
     height:35px;
-     /* position: fixed;
-    right: 30px;
-    top: 30px; */
     color:gray;
     text-align: center;
     line-height: 35px;
