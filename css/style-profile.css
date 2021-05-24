@@ -58,7 +58,7 @@ a {
  } 
 
 .overlay {
-  font-family:cursive, 'Courier New', Courier, monospace;
+  font-family: 'Amatic SC', cursive;
   position:fixed;
   top: 0;
   bottom: 0;
@@ -165,8 +165,7 @@ a {
   color: #999;
   align-items: center;
   margin-bottom: 10px;
-  /* letter-spacing:1px; */
-  /* font-family: 'Droid Seeif', Lora, Georgia, 'Times New Roman', Times, serif; */
+  
 }
 
 .main-author {

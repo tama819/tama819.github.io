@@ -196,9 +196,17 @@ padding-left: 15px;
 .facebook-s {
   width: 35px;
   height:35px;
-   /* position: fixed;
-  right: 123px;
-  top: 3px; */
+
+  color:gray;
+  text-align: center;
+  line-height: 35px;
+  /* border-radius: 5px; */
+  font-size: 2rem;
+}
+.twitter-s {
+  width: 35px;
+  height:35px;
+ 
   color:gray;
   text-align: center;
   line-height: 35px;
@@ -487,6 +495,16 @@ padding-left: 15px;
   border-radius: 5px;
   font-size: 2.2rem;
 }
+.twitter-s  {
+  width: 45px;
+  height:45px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+  font-size: 2.2rem;
+}
+
+
 
 .youtube-s {
   width: 45px;
