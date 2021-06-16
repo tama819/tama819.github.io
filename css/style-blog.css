@@ -59,7 +59,6 @@ a {
 
 .overlay {
   font-family: 'Amatic SC', cursive;
-
   position:fixed;
   top: 0;
   bottom: 0;
@@ -136,63 +135,19 @@ a {
   width: 100%;
   background-color: #fff;
   padding: 35px 0;
-  /* box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5); */
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
   opacity: 0.95;
   }
 
-  .sns-box {
-    display: flex;
-   padding:30px  0 30px 0;
-  }
-  
-  /* .facebook-s {
-    width: 35px;
-    height:35px;
-    color:gray;
-    text-align: center;
-    line-height: 35px;
-    font-size: 2rem;
-  } */
-
-  .twitter-s {
-    width: 35px;
-    height:35px;
-     color:gray;
-    text-align: center;
-    line-height: 35px;
-    font-size: 2rem;
-  }
-  
-  .youtube-s {
-    width: 35px;
-    height:35px;
-    color:gray;
-    text-align: center;
-    line-height: 35px;
-    border-radius: 5px;
-    font-size: 2rem;
-  }
-  
-  .instagram-s {
-    width: 35px;
-    height:35px;
-    color:gray;
-    text-align: center;
-    line-height: 35px;
-    border-radius: 5px;
-    font-size: 2rem;
-  }
-  
-  
-.russ_text {
+.slide {
   margin: 0 auto;
   text-align: center;
 }
 
-.russ_text img {
-  width: 30%;
+.slide img {
+  width: 40%;
   border-radius: 50%;
-  box-shadow: 0 10px 25px 0 rgba(77, 44, 1, 0.05);
+  box-shadow: 0 10px 25px 0 rgba(189, 187, 184, 0.5);
 
 }
 
@@ -210,8 +165,7 @@ a {
   color: #999;
   align-items: center;
   margin-bottom: 10px;
-  /* letter-spacing:1px; */
-
+  
 }
 
 .main-author {
@@ -251,6 +205,14 @@ a {
   border-bottom: none;
 }
 
+.main-article {
+  margin: 0;
+  padding: 0 7px 25px 7px;
+  color: #666;
+  font-size: 1rem;
+  font-family: 'Droid Seeif', Lora, Georgia, 'Times New Roman', Times, serif;
+
+}
 .footer {
    background-color: #555;
    padding: 20px 0;
@@ -284,6 +246,7 @@ a {
  
 .wrapper {
   width: 1200px;
+  /* height: 900px; */
   margin: 0 auto;
 }
 
@@ -310,8 +273,8 @@ a {
 .site-title {
   text-align: left;
   margin:0;
-  font-size: 1.7rem;
- 
+  font-size: 1.5rem;
+  
 
 }
 
@@ -323,71 +286,15 @@ a {
   margin: 0 auto;
   padding: 65px 25px;
   border-radius: 10px;
-  box-shadow: 0 10px 25px 0 rgba(75, 75, 75, 0.05);
+  box-shadow: 0 10px 25px 0 rgba(179, 178, 178, 0.5);
   opacity: 0.95;
   }
 
- .main-wrapper {
-  display: flex;
- }
-
- .sns-box {
-  display: flex;
- 
-}
-
-.facebook-s {
-  width: 45px;
-  height:45px;
-
-
-  text-align: center;
-  line-height: 40px;
-  border-radius: 5px;
-  font-size: 2.2rem;
-}
-.twitter-s  {
-  width: 45px;
-  height:45px;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 5px;
-  font-size: 2.2rem;
-}
-
-
-
-.youtube-s {
-  width: 45px;
-  height:45px;
-   /* position: fixed;
-  right: 75px;
-  top: 30px; */
-
-  text-align: center;
-  line-height: 40px;
-  border-radius: 5px;
-  font-size: 2.2rem;
-}
-
-.instagram-s {
-  width: 45px;
-  height:45px;
-   /* position: fixed;
-  right: 30px;
-  top: 30px; */
-
-  text-align: center;
-  line-height: 40px;
-  border-radius: 5px;
-  font-size: 2.2rem;
-}
-
-.russ_text img {
-  width: 150px;
+.slide img {
+  width: 200px;
   border-radius: 50%;
-  box-shadow: 0 10px 25px 0 rgba(77, 44, 1, 0.05);
-  margin-left: 30px;
+  box-shadow: 0 10px 25px 0 rgba(233, 232, 231, 0.5);
+  margin: 0 60px;
 }
 
 .main-title {
@@ -403,6 +310,7 @@ a {
   align-items: center;
   letter-spacing:1px;
   padding-bottom: 15px;
+  /* font-family: 'Droid Seeif', Lora, Georgia, 'Times New Roman', Times, serif; */
 }
 
 .main-author::before {
@@ -433,7 +341,7 @@ a {
 }
 
 .main-article {
-  margin: 0;
+  margin: 0 0 50px 0;
   color: #666;
   font-size: 1.1rem;
   font-family: 'Droid Seeif', Lora, Georgia, 'Times New Roman', Times, serif;
