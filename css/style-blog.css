@@ -8,6 +8,7 @@ body {
 
 .bg {
   background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
   width: 100%;
 padding-top: 10px;
 }
