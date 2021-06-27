@@ -157,6 +157,7 @@ a {
 
 .slide img {
   width: 40%;
+  padding-left: 3px;
   /* border-radius: 5%; */
   box-shadow: 0 10px 25px 0 rgba(189, 187, 184, 0.5);
 
