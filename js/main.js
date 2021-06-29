@@ -1,5 +1,3 @@
-
-
 {
   const pageTopBtn = document.getElementById('pagetop');
   pageTopBtn.addEventListener("click", function(){
