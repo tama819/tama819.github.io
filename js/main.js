@@ -1,6 +1,3 @@
-
-
-
 {
   const pageTopBtn = document.getElementById('pagetop');
   pageTopBtn.addEventListener("click", function(){
@@ -57,5 +54,3 @@
       setTimeout(function(){viewSlide(className, slideNo);}, msec);
     }
   }
-
-
