@@ -70,6 +70,11 @@ a {
    display: none;
  } 
 
+  #accordion.hide {
+   display: none;
+ } 
+
+
 
  .slide #photo.hide {
    opacity: 0.05;
@@ -210,7 +215,7 @@ dl > div.appear dd{
 .slide img {
   width: 40%;
   align-self: flex-start;
-  padding-left: 3px;
+  padding: 3px 3px;
   /* border-radius: 5%; */
   box-shadow: 0 10px 25px 0 rgba(189, 187, 184, 0.5);
 
@@ -496,9 +501,11 @@ dl > div.appear dd{
 
 .slide img {
   width: 200px;
+  /* width: 200px; */
   /* border-radius: 50%; */
   box-shadow: 0 10px 25px 0 rgba(233, 232, 231, 0.5);
-  margin: 0 60px;
+  margin: 0 50px;
+  padding: 15px 0;
 }
 
 .slide_sp { 
