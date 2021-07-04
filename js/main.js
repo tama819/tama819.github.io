@@ -14,7 +14,6 @@
 
 {
   const open = document.getElementById('open');
-  const accordion = document.getElementById('accordion');
   const photo = document.getElementById('photo');
   const overlay = document.querySelector('.overlay');
   const close = document.getElementById('close');
@@ -22,7 +21,6 @@
   open.addEventListener('click', () => {
     overlay.classList.add('show');
     open.classList.add('hide');
-    accordion.classList.add('hide');
     photo.classList.add('hide');
   });
  
@@ -30,7 +28,6 @@
   close.addEventListener('click', () => {
     overlay.classList.remove('show');
     open.classList.remove('hide');
-    accordion.classList.remove('hide');
     photo.classList.remove('hide');
   });
   }
