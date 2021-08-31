@@ -225,6 +225,12 @@ dl > div.appear dd{
   display: none;
 }
   
+.direct {
+  display: flex;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
 
 .main {
    width: 100%;
@@ -355,6 +361,7 @@ dl > div.appear dd{
   line-height: 1.5em;
   margin-left: 3px;
 }
+
 
 .main-title {
   color: #888;
@@ -639,6 +646,13 @@ dl > div.appear dd{
   font-weight: bold;
   line-height: 2.0em;
   margin-left: -15px;
+}
+
+.main-title-index {
+  color: #888;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0;
 }
 
 .main-title {
