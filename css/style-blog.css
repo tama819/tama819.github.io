@@ -206,20 +206,16 @@ dl > div.appear dd{
 
 .slide {
   display: flex;
-  /* flex-wrap: wrap; */
   height: auto;
-  margin: 0 auto;
   text-align: center;
+  align-items: center;
 }
 
 .slide img {
-  width: 40%;
-  align-self: flex-start;
   padding: 3px 3px;
-  /* border-radius: 5%; */
   box-shadow: 0 10px 25px 0 rgba(189, 187, 184, 0.5);
-
 }
+
 
 .slide_sp { 
   display: none;
@@ -416,13 +412,25 @@ dl > div.appear dd{
 }
 
 .main-article {
-  margin: 0;
-  padding: 5px 5px 5px 5px;
+  margin: 5px;
+  padding: 5px;
   color: #666;
   font-size: 0.8rem;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   line-height: 2.0em;
 }
+
+
+.comment {
+  /* margin: 5px; */
+  padding: 5px;
+  color: #666;
+  font-size: 0.8rem;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 1.8em;
+  text-align: left;
+}
+
 .footer {
    background-color: #555;
    padding: 20px 0;
@@ -454,10 +462,11 @@ dl > div.appear dd{
   display: block;
   margin-right: auto;
 }
+
 .bg {
   background-image: url("../img/bg.jpg");
   width: 100%;
-  padding: 20px 0 20px 0;
+  padding: 20px 0;
   background-repeat: repeat-x;
 }
  
@@ -468,7 +477,7 @@ dl > div.appear dd{
 }
 
 .header {
-  padding: 25px 0 25px 0;
+  padding: 25px 0;
   margin-left: 20p;
   
   background-color: #fff;
@@ -508,10 +517,8 @@ dl > div.appear dd{
 
 .slide img {
   width: 200px;
-  /* width: 200px; */
-  /* border-radius: 50%; */
   box-shadow: 0 10px 25px 0 rgba(233, 232, 231, 0.5);
-  margin: 0 50px;
+  margin: 0 25px;
   padding: 15px 0;
 }
 
