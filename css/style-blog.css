@@ -212,6 +212,7 @@ dl > div.appear dd{
 }
 
 .slide img {
+  width: 160px;
   padding: 3px 3px;
   box-shadow: 0 10px 25px 0 rgba(189, 187, 184, 0.5);
 }
@@ -371,7 +372,6 @@ dl > div.appear dd{
   display: flex;
   color: #999;
   align-items: center;
-  
 }
 
 .main-author {
@@ -385,7 +385,6 @@ dl > div.appear dd{
   font-weight: 900;
   font-size: 0.5rem;
   margin-right: 5px;
- 
 }
 
 .main-date {
@@ -399,12 +398,11 @@ dl > div.appear dd{
   font-size: 0.5rem;
   margin-right: 5px;
   margin-left: 10px;
- 
 }
 
 .contents {
   border-bottom: 1px solid #ccc;
-  padding:5px 15px;
+  padding:8px 16px;
 }
 
 .contents:last-of-type {
@@ -412,8 +410,8 @@ dl > div.appear dd{
 }
 
 .main-article {
-  margin: 5px;
-  padding: 5px;
+  /* margin: 5px; */
+  /* padding: 5px; */
   color: #666;
   font-size: 0.8rem;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -514,9 +512,14 @@ dl > div.appear dd{
   margin: 1px 0 0 20px;
 }
 
+.slide {
+  display: flex;
+  height: auto;
+  text-align: center;
+}
 
 .slide img {
-  width: 200px;
+  width:200px;
   box-shadow: 0 10px 25px 0 rgba(233, 232, 231, 0.5);
   margin: 0 25px;
   padding: 15px 0;
