@@ -250,8 +250,8 @@ dl > div.appear dd{
 }
 
 .facebook-s {
-  width: 32px;
-  height:32px;
+  width: 40px;
+  height: 40px;
 
   color:gray;
   text-align: center;
@@ -271,8 +271,8 @@ dl > div.appear dd{
 }
 
 .youtube-s {
-  width: 32px;
-  height:32px;
+  width: 40px;
+  height:40px;
    /* position: fixed;
   right: 75px;
   top: 30px; */
