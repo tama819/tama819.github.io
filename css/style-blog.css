@@ -442,7 +442,11 @@ dl > div.appear dd{
   text-decoration: none;
   color: #bbb;
 }
-
+.Ad {
+  display: flex;
+  margin: 0 auto;
+ justify-content: space-between;
+} 
 
 .pc-menu {
   display: none;
@@ -541,9 +545,8 @@ dl > div.appear dd{
 
  .Ad {
    display: flex;
-   margin: 0 auto;
-   padding: 0 16px 0 0;
- } 
+   justify-content: start;
+  } 
 
 .aside {
   width: 450px;
