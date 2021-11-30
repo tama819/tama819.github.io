@@ -211,7 +211,10 @@ a {
   color: #666;
   font-size: 1rem;
   font-family: 'Droid Seeif', Lora, Georgia, 'Times New Roman', Times, serif;
+}
 
+.go-home{
+  text-align: center;
 }
 .footer {
    background-color: #555;
@@ -223,6 +226,7 @@ a {
   margin: 0 auto;
   display: block;
   text-indent:30px;
+  text-align: center;
 }
 
 .footer-link
@@ -291,7 +295,7 @@ a {
   }
 
 .slide img {
-  width: 200px;
+  width: 250px;
   border-radius: 50%;
   box-shadow: 0 10px 25px 0 rgba(233, 232, 231, 0.5);
   margin: 0 60px;

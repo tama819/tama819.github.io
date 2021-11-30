@@ -146,7 +146,7 @@ a {
 .overlay.show li:nth-child(5) {
   transition-delay: .5s;
 }
-
+/* 
 dl {
   margin: 0;
 }
@@ -195,7 +195,7 @@ dl > div.appear dd{
     opacity: 1;
     transform: none;
   }
-}
+} */
 
 
 .slide {
@@ -425,11 +425,14 @@ dl > div.appear dd{
 .footer {
    background-color: #555;
    padding: 20px 0;
+  
 }
+
 .copyright {
   color: #777;
   width: 100%;
   margin: 0 auto;
+  text-align: center;
   display: block;
   text-indent:30px;
 }
@@ -538,7 +541,10 @@ dl > div.appear dd{
 
  .Ad {
    display: flex;
+   margin: 0 auto;
+   padding: 0 16px 0 0;
  } 
+
 .aside {
   width: 450px;
   background-color: #fff;
