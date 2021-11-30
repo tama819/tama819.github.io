@@ -239,13 +239,12 @@ dl > div.appear dd{
 }
 
 .side-section {
-  width:98%;
-  margin: 0 auto;
+  width:100%;
   padding: 0;
 }
 
 .sns-box {
-  display: flex;
+ display: flex;
  padding:28px  0;
 }
 
@@ -259,6 +258,7 @@ dl > div.appear dd{
   /* border-radius: 5px; */
   font-size: 2rem;
 }
+
 .twitter-s {
   width: 32px;
   height:32px;
@@ -445,8 +445,11 @@ dl > div.appear dd{
 .Ad {
   display: flex;
   margin: 0 auto;
- justify-content: space-between;
 } 
+
+.Ad img {
+  margin-left: 4px;
+}
 
 .pc-menu {
   display: none;
