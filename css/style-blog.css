@@ -546,10 +546,6 @@ dl > div.appear dd{
 
   }
 
- .Ad {
-   display: flex;
-   justify-content: start;
-  } 
 
 .aside {
   width: 450px;
