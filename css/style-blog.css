@@ -28,9 +28,7 @@ body {
 }
 
 .header {
-  /* display:flex; */
   padding: 16px;
-  /* line-height: 32px; */
 }
 
 a {
@@ -200,6 +198,7 @@ dl > div.appear dd{
 
 .slide {
   display: flex;
+  flex-wrap: wrap;
   height: auto;
   text-align: center;
   align-items: center;
