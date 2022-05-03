@@ -292,11 +292,15 @@ padding-left: 15px;
 .side-contents.meta {
 
   font-family: 'Amatic SC', cursive;
-
+  list-style-type: none;
   color: #555;
   font-size: 2rem;
   line-height: 1.5em;
   margin-left: 3px;
+}
+
+.meta ul{
+  list-style-type: none;
 }
 
 .main-title {
