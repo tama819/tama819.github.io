@@ -6,6 +6,10 @@ body {
   margin: 0;
 }
 
+p {
+  margin: 0 0 16px 0;
+}
+
 .bg {
   background-image: url("../img/bg.jpg");
   background-repeat: no-repeat;
@@ -19,11 +23,10 @@ body {
 .wrapper {
   width: 100%;
   margin: 0 auto;
+  padding: 8px;
   }
 
  .main-wrapper {
-  padding: 20px 0;
-  margin: 0 auto;
 
 }
 
@@ -144,60 +147,12 @@ a {
 .overlay.show li:nth-child(5) {
   transition-delay: .5s;
 }
-/* 
-dl {
-  margin: 0;
-}
 
-
-dl > div {
-  margin-bottom: 8px;
-}
-
-dt {
-  padding: 8px;
-  cursor: pointer;
-  user-select: none;
-  position: relative;
-}
-
-dt::after {
-  content: '+';
-  position: absolute;
-  top: 32px;
-  right: 16px;
-  transition: transform .3s;
-}
-
-dl > div.appear dt::after {
-  transform: rotate(45deg);
-}
-
-dd {
-  padding: 8px;
-  margin: 0;
-  display: none;
-}
-
-dl > div.appear dd{
-  display: block;
-  animation: .3s fadeIn;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  100% {
-    opacity: 1;
-    transform: none;
-  }
-} */
 
 
 .slide {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   height: auto;
   text-align: center;
@@ -205,7 +160,7 @@ dl > div.appear dd{
 }
 
 .slide img {
-  width: 160px;
+  width: 170px;
   margin: 3px;
   /* padding: 3px 3px; */
   box-shadow: 0 10px 25px 0 rgba(189, 187, 184, 0.5);
@@ -219,7 +174,7 @@ dl > div.appear dd{
 .direct {
   display: flex;
   height: auto;
-  margin: 0 auto;
+  margin: 8px 0;
   text-align: center;
 }
 
@@ -245,7 +200,7 @@ dl > div.appear dd{
 
 .sns-box {
  display: flex;
- padding:28px  0;
+ padding:16px  16px;
 }
 
 .facebook-s {
@@ -397,7 +352,7 @@ dl > div.appear dd{
 
 .contents {
   border-bottom: 1px solid #ccc;
-  padding:8px 16px;
+  padding:8px 24px;
 }
 
 .contents:last-of-type {
@@ -520,7 +475,7 @@ dl > div.appear dd{
   display: flex;
   height: auto;
   text-align: center;
-   align-items: center;
+   /* align-items: center; */
 }
 
 .slide img {
