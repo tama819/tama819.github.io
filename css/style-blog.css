@@ -547,6 +547,12 @@ dl > div.appear dd{
   }
 
 
+  .aside-blog {
+    width: 450px;
+    background-color: #fff;
+    padding: 80px 80px 0 40px;
+  }
+
 .aside {
   width: 250px;
   background-color: #fff;
